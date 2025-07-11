@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "9d9bd0d1beec8aa6",
+    "type": "split",
+    "children": [
+      {
+        "id": "245b9aaf222fb00d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "206fef42617adc45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/companies/bizworth.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bizworth"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e554e561bee69d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a9a2413e0ac26d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71521e9459a1af55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "832a440348b6b87e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "dbc2fb4d8b7a5e10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "61cae9531ce26b79",
+    "type": "split",
+    "children": [
+      {
+        "id": "969385151712f6d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca4ffa869c09958c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/companies/bizworth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for bizworth"
+            }
+          },
+          {
+            "id": "808ac110dd1e81b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/companies/bizworth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from bizworth"
+            }
+          },
+          {
+            "id": "0ba35c2601118695",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "63d07bc5ffff5dce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/companies/bizworth.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of bizworth"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "71521e9459a1af55",
+  "lastOpenFiles": [
+    "docs/contacts/neil.md",
+    "docs/companies/atlanta-moving-company.md",
+    "docs/contacts/john-doe.md",
+    "docs/contacts/jonathan.md",
+    "docs/contacts/daniel-snell.md",
+    "docs/contacts/nate-bible-rev.md",
+    "docs/contacts/dan-bible-rev.md",
+    "docs/contacts/carl-welhener.md",
+    "docs/contacts/antonio-english.md",
+    "proposed-object-types.md"
+  ]
+}
