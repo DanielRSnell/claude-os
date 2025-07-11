@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework Demo - Portfolio</title>
+    <link href="../../styles/main.css" rel="stylesheet">
+</head>
+<body class="bg-background text-foreground">
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="section lg mw-full bg-gradient-to-br from-background to-muted">
+            <div class="mw-theme text-center">
+                <div class="stack lg">
+                    <h1 class="h1">Framework Demo</h1>
+                    <p class="lead">
+                        A comprehensive showcase of all available components and utilities
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typography Section -->
+        <section class="section mw-full">
+            <div class="mw-theme">
+                <div class="stack lg">
+                    <div class="stack sm">
+                        <h2 class="h2">Typography</h2>
+                        <p class="lead">Heading styles and text utilities</p>
+                    </div>
+                    
+                    <div class="card lg">
+                        <div class="stack">
+                            <h1 class="h1">Heading 1 - Main Title</h1>
+                            <h2 class="h2">Heading 2 - Section Title</h2>
+                            <h3 class="h3">Heading 3 - Subsection</h3>
+                            <h4 class="h4">Heading 4 - Component Title</h4>
+                            <h5 class="h5">Heading 5 - Small Title</h5>
+                            <h6 class="h6">Heading 6 - Smallest Title</h6>
+                            <p class="lead">Lead text - Larger introductory paragraph</p>
+                            <p>Regular paragraph text with normal sizing and spacing.</p>
+                            <p class="small">Small text - For captions and secondary information</p>
+                            <p class="caption">Caption text - Smallest text for fine print</p>
+                            <p class="text-muted">Muted text - For less important information</p>
+                            <p class="text-primary">Primary text - For emphasis and highlights</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Components Section -->
+        <section class="section mw-full">
+            <div class="mw-theme">
+                <div class="stack lg">
+                    <div class="stack sm">
+                        <h2 class="h2">Interactive Components</h2>
+                        <p class="lead">Accordion, tabs, and navigation components</p>
+                    </div>
+                    
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <!-- Accordion -->
+                        <div class="stack">
+                            <h3 class="h3">Accordion</h3>
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <button class="accordion-trigger" aria-expanded="false">
+                                        <span>What is this framework?</span>
+                                        <svg class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div class="accordion-content" aria-hidden="true">
+                                        <p class="small">This is a lightweight CSS framework built with Tailwind CSS that provides semantic component classes for rapid development.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-trigger" aria-expanded="false">
+                                        <span>How do I use it?</span>
+                                        <svg class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div class="accordion-content" aria-hidden="true">
+                                        <p class="small">Simply add the CSS classes to your HTML elements. Use modifier classes like .primary, .sm, .lg to customize components.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-trigger" aria-expanded="false">
+                                        <span>Is it customizable?</span>
+                                        <svg class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div class="accordion-content" aria-hidden="true">
+                                        <p class="small">Yes! The framework is built on CSS custom properties, so you can easily customize colors, spacing, and typography by modifying the CSS variables.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tabs -->
+                        <div class="stack">
+                            <h3 class="h3">Tabs</h3>
+                            <div class="tabs">
+                                <div class="tabs-list">
+                                    <button class="tabs-trigger active">Overview</button>
+                                    <button class="tabs-trigger">Features</button>
+                                    <button class="tabs-trigger">Usage</button>
+                                </div>
+                                <div class="tabs-content">
+                                    <div class="stack">
+                                        <h4 class="h4">Overview</h4>
+                                        <p class="small">This framework provides a comprehensive set of utility classes and components for building modern web interfaces quickly and efficiently.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vertical Tabs -->
+                    <div class="stack">
+                        <h3 class="h3">Vertical Tabs</h3>
+                        <div class="tabs vertical">
+                            <div class="tabs-list vertical">
+                                <button class="tabs-trigger active">Components</button>
+                                <button class="tabs-trigger">Layout</button>
+                                <button class="tabs-trigger">Typography</button>
+                                <button class="tabs-trigger">Utilities</button>
+                            </div>
+                            <div class="tabs-content">
+                                <div class="stack">
+                                    <h4 class="h4">Components</h4>
+                                    <p class="small">The framework includes buttons, cards, forms, badges, alerts, and other interactive components.</p>
+                                    <div class="cluster">
+                                        <span class="badge primary">Buttons</span>
+                                        <span class="badge primary">Cards</span>
+                                        <span class="badge primary">Forms</span>
+                                        <span class="badge primary">Badges</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Button Section -->
+        <section class="section mw-full bg-muted/30">
+            <div class="mw-theme">
+                <div class="stack lg">
+                    <div class="stack sm">
+                        <h2 class="h2">Buttons</h2>
+                        <p class="lead">Button variants and sizes</p>
+                    </div>
+                    
+                    <div class="card lg">
+                        <div class="stack lg">
+                            <!-- Button Variants -->
+                            <div class="stack">
+                                <h3 class="h3">Button Variants</h3>
+                                <div class="cluster">
+                                    <button class="btn primary">Primary</button>
+                                    <button class="btn secondary">Secondary</button>
+                                    <button class="btn outline">Outline</button>
+                                    <button class="btn ghost">Ghost</button>
+                                    <button class="btn destructive">Destructive</button>
+                                </div>
+                            </div>
+
+                            <!-- Button Sizes -->
+                            <div class="stack">
+                                <h3 class="h3">Button Sizes</h3>
+                                <div class="cluster">
+                                    <button class="btn primary sm">Small</button>
+                                    <button class="btn primary">Default</button>
+                                    <button class="btn primary lg">Large</button>
+                                </div>
+                            </div>
+
+                            <!-- Button Group -->
+                            <div class="stack">
+                                <h3 class="h3">Button Group</h3>
+                                <div class="cluster">
+                                    <div class="btn-group">
+                                        <button class="btn outline">Left</button>
+                                        <button class="btn outline">Center</button>
+                                        <button class="btn outline">Right</button>
+                                    </div>
+                                    <div class="btn-group vertical">
+                                        <button class="btn outline">Top</button>
+                                        <button class="btn outline">Middle</button>
+                                        <button class="btn outline">Bottom</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Badge Section -->
+        <section class="section mw-full">
+            <div class="mw-theme">
+                <div class="stack lg">
+                    <div class="stack sm">
+                        <h2 class="h2">Badges</h2>
+                        <p class="lead">Badge variants and sizes</p>
+                    </div>
+                    
+                    <div class="card lg">
+                        <div class="stack lg">
+                            <!-- Badge Variants -->
+                            <div class="stack">
+                                <h3 class="h3">Badge Variants</h3>
+                                <div class="cluster">
+                                    <span class="badge primary">Primary</span>
+                                    <span class="badge secondary">Secondary</span>
+                                    <span class="badge success">Success</span>
+                                    <span class="badge warning">Warning</span>
+                                    <span class="badge danger">Danger</span>
+                                </div>
+                            </div>
+
+                            <!-- Badge Sizes -->
+                            <div class="stack">
+                                <h3 class="h3">Badge Sizes</h3>
+                                <div class="cluster">
+                                    <span class="badge primary sm">Small</span>
+                                    <span class="badge primary">Default</span>
+                                    <span class="badge primary lg">Large</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../../scripts/main.js"></script>
+</body>
+</html>
