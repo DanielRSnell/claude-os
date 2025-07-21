@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linkedin-posts/posts/published/2025-01-20-salesforce-agentforce-million-conversations.md",
+                "file": "proposed-object-types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-20-salesforce-agentforce-million-conversations"
+              "title": "proposed-object-types"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/agents/grace/functions/PD-getConfig.md",
+                "file": "proposed-object-types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PD-getConfig"
+              "title": "Backlinks for proposed-object-types"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/agents/grace/functions/PD-getConfig.md",
+                "file": "proposed-object-types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PD-getConfig"
+              "title": "Outgoing links from proposed-object-types"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/agents/grace/functions/PD-getConfig.md",
+                "file": "proposed-object-types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PD-getConfig"
+              "title": "Outline of proposed-object-types"
             }
           }
         ]
@@ -165,46 +165,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "bc13f736c2770189",
   "lastOpenFiles": [
-    "linkedin-posts/posts/published/2025-01-17-will-ai-replace-builders.md",
-    "linkedin-posts/posts/drafts/2025-01-20-windsurf-acquisition-leadership-lessons.md",
-    "linkedin-posts/posts/drafts/2025-01-17-will-ai-replace-builders.md",
-    "linkedin-posts/posts/drafts/2025-01-13-enterprise-ai-reality-check.md",
-    "linkedin-posts/posts/published/2025-01-20-salesforce-agentforce-million-conversations.md",
-    "linkedin-posts/posts/published/2025-01-20-uk-isambard-ai-supercomputer.md.tmp.12180.1753012031588",
-    "linkedin-posts/posts/drafts/2025-01-20-uk-isambard-ai-supercomputer.md",
-    "linkedin-posts/posts/published/2025-01-20-uk-isambard-ai-supercomputer.md",
-    "linkedin-posts/posts/drafts/2025-01-20-salesforce-agentforce-million-conversations.md",
-    "linkedin-posts/posts/drafts/2025-01-20-uk-isambard-ai-supercomputer.md.tmp.12180.1753011212691",
-    "linkedin-posts/posts/published/2025-01-20-openai-chatgpt-agent-strategic-implications.md",
-    "linkedin-posts/posts/drafts/2025-01-20-openai-chatgpt-agent-strategic-implications.md",
-    "linkedin-posts/posts/drafts/2025-01-20-openai-chatgpt-agent-strategic-implications.md.tmp.12180.1753009723398",
-    "linkedin-posts/news-articles/ai/2025-01-20-openai-chatgpt-agent-announcement.md",
-    "linkedin-posts/news-articles/tech/2025-01-20-techcrunch-windsurf-acquisition-drama.md",
-    "linkedin-posts/news-articles/tech/2025-01-17-youtube-voiceflow-ai-agent-builder.md",
-    "linkedin-posts/posts/drafts/2025-01-17-ai-coding-assistant-wars.md",
-    "linkedin-posts/posts/published/2025-01-17-ai-coding-assistant-wars.md",
-    "linkedin-posts/posts/published/2025-01-17-openai-insider-reveals-all.md",
-    "linkedin-posts/news-articles/tech/2025-01-17-venturebeat-anthropic-analytics-dashboard.md",
-    "linkedin-posts/posts/drafts/2025-01-17-openai-insider-reveals-all.md",
-    "linkedin-posts/news-articles/tech/2025-01-17-personal-blog-openai-reflections.md",
-    "linkedin-posts/news-articles/tech/2025-01-17-personal-blog-openai-reflections.md.tmp.63140.1752749209503",
-    "linkedin-posts/posts/published/2025-01-13-nvidia-4-trillion-paradox.md",
-    "linkedin-posts/posts/drafts/2025-01-13-nvidia-4-trillion-paradox.md",
-    "linkedin-posts/posts/drafts/2025-01-13-enterprise-ai-reality-check.md.tmp.12759.1752405161888",
-    "linkedin-posts/news-articles/business/2025-01-13-venturebeat-ai-agent-acceleration.md",
-    "linkedin-posts/news-articles/business/2025-01-13-venturebeat-ai-agent-acceleration.md.tmp.12759.1752405145190",
-    "linkedin-posts/posts/drafts/2025-01-13-nvidia-4-trillion-paradox.md.tmp.12759.1752404777891",
-    "linkedin-posts/posts/drafts/2025-01-13-nvidia-4-trillion-paradox.md.tmp.12759.1752404730441",
-    "linkedin-posts/posts/published/2025-01-13-ai-agent-marketplace-wars.md",
-    "linkedin-posts/posts/drafts/2025-01-13-ai-agent-marketplace-wars.md",
-    "linkedin-posts/posts/drafts/2025-01-13-nvidia-4-trillion-paradox.md.tmp.12759.1752404382798",
-    "linkedin-posts/README.md.tmp.12759.1752404245750",
-    "linkedin-posts/news-articles/tech/2025-01-13-ars-technica-nvidia-4-trillion.md",
-    "proposed-object-types.md"
+    "docs/tasks/README.md",
+    "docs/sites/README.md",
+    "docs/projects/README.md",
+    "docs/contacts/README.md",
+    "docs/companies/README.md",
+    "CLAUDE.md",
+    "docs/contacts/john-doe.md",
+    "docs/companies/acme-corp.md"
   ]
 }
